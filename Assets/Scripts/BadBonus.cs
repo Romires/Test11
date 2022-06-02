@@ -13,7 +13,7 @@ namespace Geekbrains
         private void Awake()
         {
             _lengthFlay = Range(1.0f, 5.0f);
-            _speedRotation = Range(10.0f, 50.0f);
+            _speedRotation = Range(10.0f, 50.0f);//fef
         }
         
         protected override void Interaction()
